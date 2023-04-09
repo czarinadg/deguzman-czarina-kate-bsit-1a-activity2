@@ -40,6 +40,15 @@ h1{
     margin-bottom: 10px;
     text-shadow: 2px 2px black;
 }
+#services {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #efefef;
+    text-align: center;
+    padding-bottom: 60px;
+}
 
 #services {
     clear: both;
@@ -95,15 +104,5 @@ h2{
 
 #blog div h3{
     padding-left: 30px;
-}
-
-#blog div:hover{
-    background-color: black;
-    color: white
-}
-
-#blog div:hover a{
-    color: white;
-    text-decoration: none;
 }
 
