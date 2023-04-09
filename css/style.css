@@ -72,8 +72,6 @@ h2{
     margin-right: auto;
 }
 
-
-
 #blog div {
     width: 24%;
     margin-left: 5px;
@@ -100,9 +98,40 @@ h2{
     margin-right: 20px;
 }
 
-
-
 #blog div h3{
     padding-left: 30px;
+}
+
+#blog a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#blog div:nth-child(4){
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    border:1px solid black;
+}
+
+#services li{
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#services li:hover{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+
+}
+
+#services li:first-child{
+    background-color: orangered;
 }
 
