@@ -95,13 +95,14 @@ h2{
     padding-left: 30px;
 }
 
-#blog div:hover{
-    background-color: black;
-    color: white
+#blog div:nth-child(4){
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    border:1px solid black;
 }
 
 #blog div:hover a{
-    color: white;
+    color: red;
     text-decoration: none;
 }
 #services li{
@@ -117,11 +118,13 @@ h2{
 
 }
 
-#services li:first-child{
-    background-color: orangered;
-}
-
 #services li:hover{
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 
 }
+
+
+#services li:first-child{
+    background-color: orangered;
+}
+
