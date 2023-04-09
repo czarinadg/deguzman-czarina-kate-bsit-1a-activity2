@@ -53,7 +53,6 @@ h1{
 h2{
     text-align: center;
     margin-top: 100px;
-
 }
 
 #blog{
@@ -62,25 +61,6 @@ h2{
     margin-right: auto;
 }
 
-#blog div {
-    width: 24%;
-    margin-left: 5px;
-    margin-right: 5px;
-    float: left;
-    padding-bottom: 20px;
-
-}
-
-#blog div img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-#blog div p, #blog div a{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 
 #blog div {
@@ -124,5 +104,24 @@ h2{
     color: white;
     text-decoration: none;
 }
+#services li{
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 
+}
 
+#services li:first-child{
+    background-color: orangered;
+}
+
+#services li:hover{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+
+}
