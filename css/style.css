@@ -50,10 +50,21 @@ h1{
     padding-bottom: 60px;
 }
 
+#services {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #efefef;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
 h2{
     text-align: center;
     margin-top: 100px;
 }
+
 
 #blog{
     max-width: 90%;
@@ -93,39 +104,5 @@ h2{
 
 #blog div h3{
     padding-left: 30px;
-}
-
-#blog a:hover{
-    color: red;
-    text-decoration: none;
-}
-
-#blog div:nth-child(4){
-    background-color: rgba(0, 0, 0, 0.918);
-    color: white;
-    border:1px solid black;
-}
-
-#services li{
-    list-style: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: inline-block;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-#services li:hover{
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
-
-}
-
-
-#services li:first-child{
-    background-color: orangered;
 }
 
