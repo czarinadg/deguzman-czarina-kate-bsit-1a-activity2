@@ -50,10 +50,21 @@ h1{
     padding-bottom: 60px;
 }
 
+#services {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #efefef;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
 h2{
     text-align: center;
     margin-top: 100px;
 }
+
 
 #blog{
     max-width: 90%;
